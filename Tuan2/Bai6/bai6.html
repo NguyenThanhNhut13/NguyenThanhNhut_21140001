@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #bai6a {
+            width: 620px;
+            height: 500px;
+            background-color: #d9d9a2;
+            text-align: center;
+            box-shadow: 0 0 10px rgb(0 0 0 / 70%);
+            padding: 10px 15px;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        #bai6a table {
+            width: 99%;
+            height: 99%;
+        }
+
+        #bai6b1 table{
+            background-color: #ffd078;
+        }
+        .my-style {
+            color: brown;
+            text-decoration: underline ;
+        }
+
+        #bai6b2 {
+            width: 275px;
+            box-shadow: 0 0 8px grey;
+            margin-left: 30px;
+            padding: 0 0 10px 2px;
+        }
+        
+        #bai6b3 {
+            width: 275px;
+            height: 150px;
+            box-shadow: 0 0 8px grey;
+            margin-left: 30px;
+            padding: 0 0 25px 2px;
+        }
+
+        #bai6c {
+            width: 500px;
+            box-shadow: 0 0 8px grey;
+            background-color: #FFD078;
+            margin: auto;
+            padding: 5px 0;
+        }
+
+        #bai6c table{
+            width: 95%;
+            height: 95%;
+            margin: auto;
+            border-color: #C000C0;
+            background-color: #FFDDFF;
+        }
+
+        #table-head th{
+            text-decoration: underline;
+            padding: 5px;
+            background-color: #FFA0FF;
+        }
+        
+        #bai6c table tbody {
+            font-style: italic;
+            font-weight: bold;
+            color: #4080FF
+        }
+
+        .stt {
+            background-color: #AADDFF;
+            font-weight: normal;
+            font-style: normal;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+   <div id="bai6a" >
+        <table border="1">
+            <tr>
+                <td style="background-color: white">1</td>
+                <td colspan="4" style="background-color: white">2</td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="background-color: white">3</td>
+                <td style="background-color: rgb(255, 94, 0)">4</td>
+                <td style="background-color: rgb(255, 94, 0)">5</td>
+                <td colspan="2" rowspan="2" style="background-color: yellow;">6</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(255, 94, 0)">7</td>
+                <td style="background-color: rgb(255, 94, 0)">8</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: yellow;">9</td>
+                <td colspan="2" style="background-color: yellow;">10</td>
+            </tr>
+        </table>
+   </div>
+   <br>
+   <div id="bai6b1" style="display: inline-block; vertical-align: bottom;">
+        <table border="1">
+            <tr style="text-align: center;">
+                <td>(1)</td>
+                <td>(2)</td>
+                <td>(3)</td>
+                <td colspan="3" >(4)</td>
+                <td>(5)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="my-style" colspan="5">Part I</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td class="my-style" colspan="4">Chapter 1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section B</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td class="my-style" colspan="4">Chapter 2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section B</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="my-style" colspan="5">Part II</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td class="my-style" colspan="4">Chapter 3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section B</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td class="my-style" colspan="4">Chapter 4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="my-style" colspan="3">Section B</td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="bai6b2" style="display: inline-block; vertical-align: bottom;">
+        <h3>With cellpadding:</h3>
+        <table border="1" cellpadding="15px" >
+            <tr>
+                <td>6.470</td>
+                <td>6.470</td>
+            </tr>
+            <tr>
+                <td>6.470</td>
+                <td>6.470</td>
+            </tr>
+        </table>
+    </div>
+    <div id="bai6b3" style="display: inline-block;">
+        <h3>Table with spanning row:</h3>
+        <table border="1">
+            <tr>
+                <td>6.470</td>
+                <td>6.470</td>
+            </tr>
+            <tr>
+                <td rowspan="2">6.470</td>
+                <td>6.470</td>
+            </tr>
+            <tr>
+                <td>6.470</td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div id="bai6c">
+        <table border="3" style="color: #C000C0; border-spacing: 1px;">
+            <caption style="color: #C000C0;"><strong> NUMBERS 1-5 in VARIOUS LANGUAGES</strong></caption>
+            <thead id="table-head">
+                    <th></th>
+                    <th>English</th>
+                    <th>Espanol</th>
+                    <th>Francais</th>
+                    <th>Italiano</th>
+                    <th>Deutsch</th>
+            </thead>
+            <tbody style="text-align: center;">
+                <tr>
+                    <td class="stt">1</td>
+                    <td>one</td>
+                    <td>uno</td>
+                    <td>un</td>
+                    <td>uno</td>
+                    <td>eins</td>
+                </tr>
+                <tr>
+                    <td class="stt">2</td>
+                    <td>two</td>
+                    <td>dos</td>
+                    <td>deux</td>
+                    <td>due</td>
+                    <td>zwei</td>
+                </tr>
+                <tr>
+                    <td class="stt">3</td>
+                    <td>three</td>
+                    <td>tres</td>
+                    <td>trois</td>
+                    <td>tre</td>
+                    <td>drei</td>
+                </tr>
+                <tr>
+                    <td class="stt">4</td>
+                    <td>four</td>
+                    <td>cuatro</td>
+                    <td>quatre</td>
+                    <td>quattro</td>
+                    <td>vier</td>
+                </tr>
+                <tr>
+                    <td class="stt">5</td>
+                    <td>five</td>
+                    <td>cinco</td>
+                    <td>cinq</td>
+                    <td>cinque</td>
+                    <td>funf</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
