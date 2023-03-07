@@ -1,0 +1,48 @@
+.bai4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    box-shadow: 0 0 8px;
+    max-width: 40%;
+    margin: auto;
+}
+
+h2 {
+    color: #993738;
+    text-align: center;
+    padding: 2px;
+} 
+
+table th {
+    background-color: #993738;
+    color: white;
+    padding: 8px 8px;
+}
+
+table {
+    min-width: 100%;
+    padding: 15px;
+    border-spacing: 0.3px;
+}
+
+th, td {
+    border: 1px solid #993738;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+th:first-child, td:first-child{
+    text-align: left;
+}
+
+th:last-child, td:last-child{
+    text-align: right;
+}
+
+.odd {
+ background-color: lightgray;
+}
+
+.even {
+background-color: white;
+}
+
