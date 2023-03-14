@@ -11,96 +11,169 @@
     </style>
 </head>
 <body>
-    <div id="header">
-        <div id="menu">
-            <div id="menu1">Shop</div>
-            <div>Offers</div>
-            <div>Our story</div>
-            <div>Blog</div>
+    <div id="all">
+        <div id="header">
+            <div id="menu">
+                <div id="menu1">Shop</div>
+                <div>Offers</div>
+                <div>Our story</div>
+                <div>Blog</div>
+            </div>
+            <img src="image/logo.png" alt="Logo" id="logo">
+            <div id="right-header">
+                <div id="search">
+                    <img src="image/search.png" alt="ảnh kính lúp">
+                    <input type="text" placeholder="Search product...">
+                </div>
+                <div id="utility-bar">
+                    <img src="image/cart.png" alt="ảnh xe hàng">
+                    <label>Cart (0)</label>
+                    <img src="image/login.png" alt="login">
+                </div>
+            </div>
         </div>
-        <img src="logo.png" alt="Logo" id="logo">
-        <div id="right-header">
-            <div id="search">
-                <img src="search.png" alt="ảnh kính lúp">
-                <input type="text" placeholder="Search product...">
+    
+        <!-- Path bar -->
+        <div id="path-bar">
+            <div>Home</div>
+            <div><img src="image/Caret right 1.png" alt="caret right"></div>
+            <div>Shop</div>
+            <div><img src="image/Caret right 1.png" alt="aret right"></div>
+            <div>Productss type</div>
+            <div> <img src="image/Caret right 1.png" alt="aret right"></div>
+            <div id="path-bar-detail">Detail</div> 
+        </div>
+    
+        <!-- Product details -->
+        <div id="product-detail">
+            <div id="product-detail-image">
+                <div id="prd-1">
+                    <div><img src="image/Image1.png" alt="ảnh 1"></div>
+                    <div><img src="image/Image 1 (1).png" alt="ảnh 2"></div>
+                    <div><img src="image/Image 1 (2).png" alt="ảnh 3"></div>
+                    <div><img src="image/Image 1 (3).png" alt="ảnh4"></div>
+                </div>
+                <div id="prd-2"><img src="image/Image 1 (4).png" alt="ảnh 4"></div>
+                <div id="best-seller">Best Seller</div>
             </div>
-            <div id="utility-bar">
-                <img src="cart.png" alt="ảnh xe hàng">
-                <label>Cart (0)</label>
-                <img src="login.png" alt="login">
+            <div id="detail">
+                <h1>Product name</h1>
+                <p class="detail-text">Aliquip fugiat ipsum nostrud ex et incididunt</p>
+                <div id="price1">$32</div>
+                <div id="price2">$42</div>
+                <p class="detail-text">In ullamco labore mollit et exercitation fugiat exercitation minim ex sint ullamco exercitation amet officia mollit. Qui cillum pariatur in icon</p>
+                <div id="reviews">
+                    <div id="review_1">
+                        <div class="bold-text">368</div>
+                        <div class="detail-text">reviews</div>
+                    </div>
+                    <div id="review_2">
+                        <div class="bold-text">823</div>
+                        <div class="detail-text">sold</div>
+                    </div>
+                    <div id="review_3">
+                        <div><img src="image/Rating 1.png" alt="đánh giá"></div>
+                        <div class="bold-text">4.5</div>
+                    </div>
+                </div>
+                <div id="endow">
+                    <p class="detail-text">
+                        <img src="image/Check circle 1.png" alt="check">Free shipping on orders over $49USD
+                    </p>
+                    <p class="detail-text">
+                        <img src="image/Check circle 1 (1).png" alt="check1">Free + easy returns
+                    </p>
+                </div>
+                    <p class="bold-text">Choose size <br>
+                        <select name="size" id="choice">
+                            <option value="1">50.00 ML</option>
+                            <option value="2">100.00 ML</option>
+                            <option value="3">200.00 ML</option>
+                            <option value="4">500.00 ML</option>
+                        </select>
+                    </p>
+                    <div class="bold-text">Quantity</div>
+                    <div id="button_control">
+                        <div><img src="image/Button 1 (3).png" alt="decrement"></div>
+                        <div id="quantity">1</div>
+                        <div><img src="image/Button 1 (4).png" alt="increment"></div>
+                    </div>
+                    <div id="buy">
+                        <div id="add"><img  src="image/cart-detail.png" alt="giỏ hàng">Add to bag</div>
+                        <div id="checkout">Checkout</div>
+                    </div>
             </div>
         </div>
-    </div>
-
-    <!-- Path bar -->
-    <div id="path-bar">
-        <div>Home</div>
-        <div><img src="Caret right 1.png" alt="caret right"></div>
-        <div>Shop</div>
-        <div><img src="Caret right 1.png" alt="aret right"></div>
-        <div>Productss type</div>
-        <div> <img src="Caret right 1.png" alt="aret right"></div>
-        <div id="path-bar-detail">Detail</div> 
-    </div>
-
-    <!-- Product details -->
-    <div id="product-detail">
-        <div id="product-detail-image">
-            <div id="prd-1">
-                <div><img src="Image1.png" alt="ảnh 1"></div>
-                <div><img src="Image 1 (1).png" alt="ảnh 2"></div>
-                <div><img src="Image 1 (2).png" alt="ảnh 3"></div>
-                <div><img src="Image 1 (3).png" alt="ảnh4"></div>
-            </div>
-            <div id="prd-2"><img src="Image 1 (4).png" alt="ảnh 4"></div>
-            <div id="best-seller">Best Seller</div>
-        </div>
-        <div id="detail">
-            <h1>Product name</h1>
-            <p class="detail-text">Aliquip fugiat ipsum nostrud ex et incididunt</p>
-            <div id="price1">$32</div>
-            <div id="price2">$42</div>
-            <p class="detail-text">In ullamco labore mollit et exercitation fugiat exercitation minim ex sint ullamco exercitation amet officia mollit. Qui cillum pariatur in icon</p>
-            <div id="reviews">
-                <div id="review_1">
-                    <div class="bold-text">368</div>
-                    <div class="detail-text">reviews</div>
+        <!-- Related products -->
+        <h2>Related Products</h2>
+        <div id="related_products">
+            <div class="product">
+                <div class="product_image">
+                    <img src="image/Image 1 (5).png" alt="sản phẩm 1"> 
                 </div>
-                <div id="review_2">
-                    <div class="bold-text">823</div>
-                    <div class="detail-text">sold</div>
-                </div>
-                <div id="review_3">
-                    <div><img src="Rating 1.png" alt="đánh giá"></div>
-                    <div class="bold-text">4.5</div>
+                <h3>Product title</h3>
+                <p>Labore sint ipsum dolore mollit</p>
+                <div class="price_description">
+                    <div class="product_price">
+                        <div class="product_price1">$32</div>
+                        <div class="product_price2">$42</div>
+                    </div>
+                    <div class="product_cart">
+                        <img src="image/Button 1 (2).png" alt="cart">
+                    </div>
                 </div>
             </div>
-            <div id="endow">
-                <p class="detail-text">
-                    <img src="Check circle 1.png" alt="check">Free shipping on orders over $49USD
-                </p>
-                <p class="detail-text">
-                    <img src="Check circle 1 (1).png" alt="check1">Free + easy returns
-                </p>
+            <div class="product">
+                <div class="product_image">
+                    <img src="image/Image 1 (6).png" alt="sản phẩm 2">
+                    <div class="product_best-seller">Best-seller</div>
+                </div>
+                <h3>Product title</h3>
+                <p>Labore sint ipsum dolore mollit</p>
+                <div class="price_description">
+                    <div class="product_price">
+                        <div class="product_price1">$22</div>
+                        <div class="product_price2">$28</div>
+                    </div>
+                    <div class="product_cart">
+                        <img src="image/Button 1 (2).png" alt="cart">
+                    </div>
+                </div>
             </div>
-                <p class="bold-text">Choose size <br>
-                    <select name="size" id="choice">
-                        <option value="1">50.00 ML</option>
-                        <option value="2">100.00 ML</option>
-                        <option value="3">200.00 ML</option>
-                        <option value="4">500.000 ML</option>
-                    </select>
-                </p>
-                <div class="bold-text">Quantity</div>
-                <div id="button_control">
-                    <div><img src="Button 1 (3).png" alt="decrement"></div>
-                    <div id="quantity">1</div>
-                    <div><img src="Button 1 (4).png" alt="increment"></div>
+            <div class="product">
+                <div class="product_image">
+                    <img src="image/Image 1 (7).png" alt="sản phẩm 3">
+                    <div class="product_best-seller">Best-seller</div>
                 </div>
-                <div id="buy">
-                    <div id="add"><img  src="cart-detail.png" alt="giỏ hàng">Add to bag</div>
-                    <div id="checkout">Checkout</div>
+                <h3>Product title</h3>
+                <p>Labore sint ipsum dolore mollit</p>
+                <div class="price_description">
+                    <div class="product_price">
+                        <div class="product_price1">$48</div>
+                        <div class="product_price2">$56</div>
+                    </div>
+                    <div class="product_cart">
+                        <img src="image/Button 1 (2).png" alt="cart">
+                    </div>
                 </div>
+            </div>
+            <div class="product">
+                <div class="product_image">
+                    <img src="image/Image 1 (8).png" alt="sản phẩm 4">
+                    <div class="product_best-seller">Best-seller</div>
+                </div>
+                <h3>Product title</h3>
+                <p>Labore sint ipsum dolore mollit</p>
+                <div class="price_description">
+                    <div class="product_price">
+                        <div class="product_price1">$18</div>
+                        <div class="product_price2">$26</div>
+                    </div>
+                    <div class="product_cart">
+                        <img src="image/Button 1 (2).png" alt="cart">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
