@@ -1,12 +1,10 @@
 #wrapper_meeting {
     display: flex;
-    max-width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #navigation-bar {
     width: 4%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,8 +39,7 @@
 #content {
     padding: 30px;
     border: 1px solid lightgray;
-    width: 64%;
-    height: 100%;
+    width: 60%;
 }
 
 #title {
@@ -114,12 +111,11 @@
 
 #main_image {
     position: relative;
-    /* max-height: 50%; */
 }
 
 #big_image {
     max-width: 100%;
-    /* max-height: 100%; */
+    height: 100%;
 }
 
 #mic_image {
@@ -226,8 +222,6 @@
 
 #participant {
     width: 32%;
-    height: 100%;
-    /* border: 2px solid red; */
 }
 
     /* Participant top */
